@@ -42,7 +42,7 @@ belongs_to :user
 | Column             |  Type      |  Options                     |  others    |
 |--------------------|------------|------------------------------|------------|
 | content            | string     | nul:false                    |            |
-| prototype          | text       | nul:false, foreign_key: true |            |
+| prototype          | references | nul:false, foreign_key: true |            |
 | user               | references | nul:false, foreign_key: true |            |
 
 ### Association

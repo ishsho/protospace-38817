@@ -9,10 +9,7 @@
     <% end %>
     
     <div class="card__wrapper">
-      <% @prototypes.each do |prototype| %>
         <%= render partial: "prototype", collection: @prototypes %>
-      <% end %>
-          
     </div>
   </div>
 </main>
