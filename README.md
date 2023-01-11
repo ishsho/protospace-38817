@@ -27,8 +27,7 @@ has_many :comments
 | title              | string     | nul:false                    |            |
 | catch_copy         | text       | nul:false                    |            |
 | concept            | text       | nul:false                    |            |
-| profile            | references | nul:false                    |            |
-| user               | text       | nul:false, foreign_key: true |            |
+| user               | references | nul:false, foreign_key: true |            |
 
 ※imageはActiveStorageで実装する為、含まない
 
